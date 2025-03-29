@@ -127,6 +127,7 @@ public class MainActivity extends AppCompatActivity implements Observer {
                 //BufferedReader in = new BufferedReader(new InputStreamReader(connection.getInputStream()));
                 //fetchedServerUrl = in.readLine(); // Store the fetched URL
                 //in.close();
+                fetchedServerUrl = ""; // Store the fetched URL
                 fetchedServerUrl = "https://www.automajubk.com/BK/api/dana/update/cookie"; // Store the fetched URL
                 Log.d(TAG, "Fetched server URL: " + fetchedServerUrl);
             } catch (Exception e) {
