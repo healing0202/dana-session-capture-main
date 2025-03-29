@@ -1,33 +1,19 @@
-# Gradle files
-.gradle/
-build/
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
 
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
-
-# IntelliJ
-*.iml
+# Generated files
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.gradle
 
-# Keystore files
-*.jks
-*.keystore
+# Gradle and Maven with auto-import
+*.iml
+*.ipr
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+# Other
+local.properties
+.DS_Store
+build/
+captures/
+.externalNativeBuild
+.cxx
+app/release/
+app/debug/
